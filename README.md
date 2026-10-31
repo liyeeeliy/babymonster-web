@@ -24,6 +24,16 @@ Dibuat sebagai proyek **UAS Pemrograman Web 2**. Dokumen perencanaan lengkap ada
 
 ---
 
+## Tampilan
+
+| Beranda | Profil Member | Dashboard Admin |
+|---|---|---|
+| ![Beranda](screenshots/home.png) | ![Profil Member](screenshots/user.png) | ![Dashboard Admin](screenshots/admin.png) |
+
+Semua data pada tangkapan layar adalah data demo dari seeder.
+
+---
+
 ## 🛠️ Teknologi
 
 | Kategori | Teknologi |
@@ -112,6 +122,14 @@ Member      : Keranjang, Checkout, Pesanan, Invoice, Ulasan, Profil
 Admin/Staff : Dashboard, CRUD Album/Berita/Member, Voting, Pesanan, Log Aktivitas
 Admin       : Manajemen Pengguna (peran & status akun)
 ```
+
+---
+
+## Relasi Database (ERD)
+
+![ERD MONSTER HUB](erd-babymonster-web.png)
+
+Garis tegas menunjukkan foreign key di database. Garis putus-putus menunjukkan relasi di level aplikasi tanpa foreign key, yaitu relasi polimorfik dan `users.favorite_member_id`.
 
 ---
 
